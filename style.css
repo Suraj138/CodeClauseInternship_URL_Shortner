@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  }
+  
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(to right, #1abc9c, #34495e);
+    box-shadow: 4px 0 2px 4px;
+}
+  
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+label {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+#url {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ebdcdc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #1abc9c, #34495e);
+}
+  
+.center-button {
+    text-align: center;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, #1abc9c, #34495e);
+    transition: background-color 0.2s ease;
+}
+  
+button:hover {
+    background: #1c6ca4;
+}
+  
+#result {
+    margin-top: 20px;
+    text-align: flex;
+}
+  
+h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+  
+th,td {
+    padding: 10px;
+    max-width: 50px;
+    border-bottom: 1px solid #ccc;
+}
+  
+th {
+    background-color: #646262;
+    text-align: left;
+}
+  
+a {
+    color: #0011ff;
+    text-decoration: none;
+}
+  
+button.copy {
+    background: linear-gradient(to right, #1abc9c, #34495e);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+  
+button.copy:hover {
+    background: #0aa005;
+}
+  
+button.delete {
+    background: linear-gradient(to right, #1abc9c, #34495e);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+  
+button.delete:hover {
+    background: #cc0000;
+}
+  
+#history {
+    margin: 0 auto;
+}
+  
+#history td {
+    text-align: center;
+}
+  
